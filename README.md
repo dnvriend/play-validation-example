@@ -30,6 +30,11 @@ sbt "testOnly *FormValidationTest"
 sbt "testOnly *DisjunctionTest"
 ```
 
+## Test library
+The projects uses the [ScalaTest](http://www.scalatest.org/) library in combination with the [scalaz-scalatest](https://github.com/typelevel/scalaz-scalatest)
+library to get a nice DSL in which to define the specification. We use the [FlatSpec](http://doc.scalatest.org/3.0.1/#org.scalatest.FlatSpec) with [Matchers](http://doc.scalatest.org/3.0.1/#org.scalatest.Matchers)
+mixins to define an abstract [TestSpec class](https://github.com/dnvriend/play-validation-example/blob/master/test/com/github/dnvriend/TestSpec.scala) that defines the language that we use to define our [TestSuites](http://www.scalatest.org/user_guide) with.
+
 ## Documentation
 - [Eugene Yokota Blogs](http://eed3si9n.com/)
 - [Learning Scalaz - Eugene Yokota (eed3si9n)](http://eed3si9n.com/learning-scalaz/)
