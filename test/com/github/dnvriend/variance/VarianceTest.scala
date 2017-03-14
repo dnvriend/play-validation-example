@@ -47,7 +47,7 @@ class VarianceTest extends TestSpec {
    * ==Invariance==
    * ==TL;DR==
    * ''It does not vary'' so only A can be assigned
-    *  Given List[A] then val xs: List[String] = List.empty[String], A !!may-not!! vary
+   *  Given List[A] then val xs: List[String] = List.empty[String], A !!may-not!! vary
    *
    * ==Overview==
    * ''Invariance T[A] refers to the unchanging nature of a higher-kinded type parameter.''
@@ -91,7 +91,7 @@ class VarianceTest extends TestSpec {
    * ==Covariance==
    * ==TL;DR==
    * ''It can vary downwards'' so A or subtypes of A can be assigned
-    *  Given List[+A] then val xs: List[Any] = List.empty[Nothing]
+   *  Given List[+A] then val xs: List[Any] = List.empty[Nothing]
    *
    * ==Overview==
    * ''Covariance T[+A] refers to the ability to substitute a type parameter with its parent type'';
@@ -139,8 +139,8 @@ class VarianceTest extends TestSpec {
    * ==Contravariance==
    * ==TL;DR
    * ''It can vary upwards'', so A or supertypes of A can be assigned to xs
-    * Given List[-A] then val xs: List[Nothing] = List.empty[Any]
-    *
+   * Given List[-A] then val xs: List[Nothing] = List.empty[Any]
+   *
    *
    * ==Overview
    * ''Contravariance T[-A] is the opposite of covariance, the ability to substitute a type parameter with a subtype.''

@@ -76,6 +76,10 @@ class DisjunctionTest extends TestSpec {
     result should not be 'defined // but what went wrong??
   }
 
+  it should "do something" in {
+
+  }
+
   /**
    * Downside of Option:
    *  - comprehending over groups of options lead to "silent failure",

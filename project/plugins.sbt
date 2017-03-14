@@ -1,5 +1,5 @@
 // to enable the playframework
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.10")
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.13")
 
 resolvers += Resolver.url(
   "bintray-dnvriend-ivy-sbt-plugins",
