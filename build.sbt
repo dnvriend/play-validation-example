@@ -20,7 +20,8 @@ libraryDependencies += "com.typesafe.akka" %% "akka-persistence-query-experiment
 
 // fp
 libraryDependencies += "com.github.mpilquist" %% "simulacrum" % "0.10.0"
-libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.2.9"
+libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.2.10"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.1"
 
 // database support
 libraryDependencies += jdbc

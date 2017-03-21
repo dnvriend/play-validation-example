@@ -43,3 +43,6 @@ mixins to define an abstract [TestSpec class](https://github.com/dnvriend/play-v
 - [Typelevel Cats](https://github.com/typelevel/cats)
 - [Herding Cats - Eugene Yokota](http://eed3si9n.com/herding-cats/)
 - [Scala Hamsters](https://github.com/scala-hamsters/hamsters)
+
+## Video
+- [(0'45 hrs) Comparing Functional Error Handling in Scalaz and Scalactic - Bill Venners](https://www.youtube.com/watch?v=2kFigGFqML0)
